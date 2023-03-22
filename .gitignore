@@ -4,3 +4,4 @@ inst
 readme.html
 tests/testthat/*.html
 ipfs.draft3.pdf
+*.yml
