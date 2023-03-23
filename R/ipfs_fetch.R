@@ -9,7 +9,7 @@
 #' @return
 #' @export
 #'
-#' @examples
+#' @examples jsonlite::fromJSON(rawToChar(ipfs::ipfs_fetch("version", params = list())))
 
 ipfs_fetch <- function(command, params, post = NULL){
   url <- ipfs_api("api/v0", command)
